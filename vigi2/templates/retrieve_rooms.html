@@ -1,0 +1,52 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h1>Retrieve room status</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>Room type</th>
+                  <th>Price</th>
+                  <th>Edit</th>
+                </tr>
+              </thead>
+              <tbody>
+              {% for room in rooms %}
+                <tr>
+                  <td>{{ room.id }}</td>
+                  <td>{{ room.type }}</td>
+                  <td>{{ room.id }}</td>
+                  <td>
+                    <a class="btn btn-danger">Delete</a>
+                    <a class="btn btn-primary">Edit</a>
+                  </td>
+                </tr>
+              {% endfor %}
+                <tr>
+                  <td>2</td>
+                  <td>Jacob</td>
+                  <td>Thornton</td>
+                  <td>@fat</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>Larry</td>
+                  <td>the Bird</td>
+                  <td>@twitter</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+{% endblock %}

@@ -1,0 +1,61 @@
+{% extends 'base.html' %}
+{% block content %}
+        <div class="section">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <h1>Edit reservation</h1>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-md-12">
+                  <hr>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-md-6">
+                  <form class="form-horizontal" role="form" method="post" action="{% url 'edit_reservation'  reservation.id %}">
+                      {% csrf_token %}
+                     <div class="form-group">
+                        <div class="col-sm-2"><label for="checkin" class="control-label">Checkin<br></label></div>
+                        <div class="col-sm-10"><input type="date" class="form-control" id="checkin" name="checkin" value="{{ reservation.checkin }}"></div>
+                     </div>
+                     <div class="form-group">
+                        <div class="col-sm-2"><label for="checkout" class="control-label">Checkout</label></div>
+                        <div class="col-sm-10"><input type="date" class="form-control" id="checkout" name="checkout"></div>
+                     </div>
+                     <div class="form-group">
+                        <div class="col-sm-2"><label for="roomnumber" class="control-label"># room</label></div>
+                        <div class="col-sm-10"><input type="number" class="form-control" id="roomnumber" name="number" value="{{ reservation.number }}"></div>
+                     </div>
+                     <div class="form-group">
+                        <div class="col-sm-offset-2 col-sm-10"><button type="submit" class="btn btn-default">Modify</button></div>
+                     </div>
+                  </form>
+               </div>
+               <div class="col-md-6">
+                  <ul class="media-list">
+                      {% for room in rooms %}
+                     <li class="media">
+                        <a class="pull-left" href="#"><img class="media-object" src="http://pingendo.github.io/pingendo-bootstrap/assets/placeholder.png" height="64" width="64"></a>
+                        <div class="media-body">
+                           <h4 class="media-heading">{{ room.type }}</h4>
+                           <p>Price: {{  reservations.room.price }} KRW / night<br>Facility: Refrigerator</p>
+                           <a class="btn btn-primary" href="{% url 'reserve' room.id checkin checkout number %}">Modify</a><br><br>
+                        </div>
+                     </li>
+                      {% endfor %}
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </div>
+        <script>
+        (function(funcName, baseObj) {
+            var checkin = new Date(Date.parse("{{ reservation.checkin }}"));
+            document.getElementById("checkin").value = checkin.getFullYear()+"-"+("0" + (checkin.getMonth() + 1)).slice(-2)+"-"+("0" + checkin.getDate()).slice(-2);
+        var checkout = new Date(Date.parse("{{ reservation.checkout }}"));
+        document.getElementById("checkout").value = checkout.getFullYear()+"-"+("0" + (checkout.getMonth() + 1)).slice(-2)+"-"+("0" + checkout.getDate()).slice(-2);
+            })("docReady", window);
+        </script>
+{% endblock %}

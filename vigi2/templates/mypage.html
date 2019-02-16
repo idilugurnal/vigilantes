@@ -1,0 +1,59 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h1>My page</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <hr>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <h3 class="text-primary">Personnal Information</h3>
+            <table class="table">
+              <tbody>
+                <tr>
+                  <td>Username</td>
+                  <td>{{user.user.username}}</td>
+                </tr>
+                <tr>
+                  <td>Email</td>
+                  <td>{{user.user.email }}</td>
+                </tr>
+                <tr>
+                  <td>Phone</td>
+                  <td>{{user.phonenumber}}</td>
+                </tr>
+              </tbody>
+            </table>
+            <hr>
+            <h3 class="text-primary">Delete my account</h3>
+            <p>You are no longer be able to access to our service</p>
+            <a class="btn btn-danger">Delete my account</a>
+          </div>
+          <div class="col-md-6">
+            <h3 class="text-primary">Order List</h3>
+	<ul class="media-list">
+        {% for reservation in reservations %}
+		<li class="media">
+			<a class="pull-left" href="#"><img class="media-object" height="64" src="http://pingendo.github.io/pingendo-bootstrap/assets/placeholder.png" width="64"></a>
+			<div class="media-body">
+				<h4 class="media-heading">{{ reservation.room.type }}</h4>
+				<p>Check-in: &nbsp; &nbsp;{{ reservation.checkin }}<br>
+				Check-out: {{ reservation.checkout }}<br>
+				#Room: {{ reservation.number }}</p><a class="btn btn-danger" href="{% url 'delete' reservation.id %}">Cancel reservation</a><a class="btn btn-primary" href="{% url 'edit_reservation' reservation.id %}">Edit reservation</a>
+			</div>
+		</li>
+        {% endfor %}
+	</ul>
+
+          </div>
+        </div>
+      </div>
+    </div>
+{% endblock %}

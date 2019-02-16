@@ -1,1 +1,41 @@
+{% extends 'base.html' %}
 
+{% block content %}
+<div class="section">
+      <div class="container">
+      {% if show %}
+          <p>{{ message }}</p>
+      {% endif %}
+        <div class="row">
+          <div class="col-md-12">
+            <h1>Approve new hotel staff</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>Name</th>
+                  <th>Approve</th>
+                </tr>
+              </thead>
+              <tbody>
+              {% for staff in newstaffs %}
+                <tr>
+                  <td>{{ staff.id }}</td>
+                  <td>{{ staff.user.username }}</td>
+                  <td>
+                    <a class="btn btn-primary" href="{% url 'approve_user' staff.id %}">Approve</a>
+                    <a class="btn btn-danger" href="{% url 'deny_user' staff.id %}">Deny</a>
+                  </td>
+                </tr>
+              {% endfor %}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+{% endblock %}
