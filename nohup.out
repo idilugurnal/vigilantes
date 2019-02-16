@@ -1,0 +1,718 @@
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 06, 2017 - 03:24:17
+Django version 1.10.6, using settings 'vigi2.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+[06/Jun/2017 03:24:23] "GET / HTTP/1.1" 200 5532
+[06/Jun/2017 03:24:23] "GET /static/sticky-footer.css HTTP/1.1" 304 0
+[06/Jun/2017 03:24:33] "POST / HTTP/1.1" 200 6813
+[06/Jun/2017 03:24:36] "GET /reserve/1/checkin/2017-06-06/checkout/2017-06-06/number/1/ HTTP/1.1" 302 0
+[06/Jun/2017 03:24:36] "GET /login/ HTTP/1.1" 200 3871
+[06/Jun/2017 03:24:45] "POST /login/ HTTP/1.1" 302 0
+[06/Jun/2017 03:24:46] "GET / HTTP/1.1" 200 5628
+[06/Jun/2017 03:24:47] "GET /approve/ HTTP/1.1" 200 3471
+Not Found: /favicon.ico
+[06/Jun/2017 03:24:47] "GET /favicon.ico HTTP/1.1" 404 5202
+Not Found: /favicon.ico
+[06/Jun/2017 03:24:48] "GET /favicon.ico HTTP/1.1" 404 5202
+[06/Jun/2017 03:24:56] "GET / HTTP/1.1" 200 5628
+[06/Jun/2017 03:24:59] "GET /mypage/ HTTP/1.1" 200 4642
+[06/Jun/2017 03:25:03] "GET /logout/ HTTP/1.1" 200 3217
+Invalid HTTP_HOST header: '188.166.255.239:8000'. You may need to add u'188.166.255.239' to ALLOWED_HOSTS.
+[06/Jun/2017 04:53:09] "GET / HTTP/1.1" 400 60863
+[2017-06-06 04:53:09,950] - Broken pipe from ('139.162.79.87', 58836)
+
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 06, 2017 - 03:24:22
+Django version 1.10.6, using settings 'vigi2.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Hotel Staff
+Hotel Staff
+Unhandled exception in thread started by <function wrapper at 0x7f390b129140>
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/autoreload.py", line 226, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/commands/runserver.py", line 113, in inner_run
+    autoreload.raise_last_exception()
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/autoreload.py", line 249, in raise_last_exception
+    six.reraise(*_exception)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/autoreload.py", line 226, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 27, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/usr/local/lib/python2.7/dist-packages/django/apps/registry.py", line 85, in populate
+    app_config = AppConfig.create(entry)
+  File "/usr/local/lib/python2.7/dist-packages/django/apps/config.py", line 90, in create
+    module = import_module(entry)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+ImportError: No module named django-extensions
+[06/Jun/2017 05:29:44] "GET / HTTP/1.1" 200 5532
+[06/Jun/2017 05:29:44] "GET /static/sticky-footer.css HTTP/1.1" 200 275
+[06/Jun/2017 05:29:50] "GET / HTTP/1.1" 200 5532
+[06/Jun/2017 05:29:51] "GET /static/sticky-footer.css HTTP/1.1" 200 275
+[06/Jun/2017 05:30:06] "POST / HTTP/1.1" 200 6813
+[06/Jun/2017 05:30:09] "GET /reserve/1/checkin/2017-06-06/checkout/2017-06-06/number/1/ HTTP/1.1" 302 0
+[06/Jun/2017 05:30:09] "GET /login/ HTTP/1.1" 200 3871
+[06/Jun/2017 05:30:18] "GET /register/ HTTP/1.1" 200 5575
+[06/Jun/2017 05:30:33] "POST /login/ HTTP/1.1" 200 4021
+[06/Jun/2017 05:30:51] "GET /register/ HTTP/1.1" 200 5575
+[06/Jun/2017 05:31:26] "POST /register/ HTTP/1.1" 200 3221
+[06/Jun/2017 05:47:30] "GET / HTTP/1.1" 200 5532
+[06/Jun/2017 05:47:30] "GET /static/sticky-footer.css HTTP/1.1" 304 0
+[06/Jun/2017 06:42:24] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x02\x00\x01\x00\x01\xfc\x03\x03"y\x9ej\x9b\x13,\x83\xdb\x89\xd6\x07\xa4[\xea\xfe')
+[06/Jun/2017 06:42:24] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[06/Jun/2017 07:07:31] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00\xdb\x01\x00\x00\xd7\x03\x03Y6T\xb1Y\xac\x9ca\x02W\x96v,~m')
+[06/Jun/2017 07:07:31] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[06/Jun/2017 07:07:31] code 400, message Bad request syntax ('\x16\x03\x01\x00\xe1\x01\x00\x00\xdd\x03\x03Y6T\xb2\xbd\xa0\x1c\x87M\xb4f\x05\x08\xfes\x8e{3\xc5Hi\x9d#|\x15T&\xbe\xf7\xfe\xfck\x00\x00,\x00\xff\xc0,\xc0+\xc0$\xc0#\xc0')
+[06/Jun/2017 07:07:31] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[06/Jun/2017 07:07:31] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00\xc1\x01\x00\x00\xbd\x03\x01Y6T\xb28\x08%SC\xe1\xb5\xe6\xe2\xe0\xfe\xf3G\xae\x86\x8dIm\x02\xe5\x12a\xd5.')
+[06/Jun/2017 07:07:31] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[06/Jun/2017 07:07:31] code 400, message Bad request syntax ('\x16\x03\x01\x00\xc1\x01\x00\x00\xbd\x03\x01Y6T\xb2\x85\x82L\xbb\xb4~\xe88\x1a\xf0\x85\xb3D>pN\x07\xb6\xb2\x18\xd7\x15A\x04\x81:\xac\xe5\x00\x00"\x00\xffV\x00\xc0$\xc0#\xc0')
+[06/Jun/2017 07:07:31] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[06/Jun/2017 07:07:39] code 400, message Bad request syntax ('\x16\x03\x01\x00\xdb\x01\x00\x00\xd7\x03\x03Y6T\xba46\xdeY\xf0:K\xdf\xe5\xe2V(a\x83\x08:y9\x93\xc7\x0e)\xa5Xg\xbc\x88\xfe\x00\x00&\x00\xff\xc0,\xc0+\xc0$\xc0#\xc0')
+[06/Jun/2017 07:07:39] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[06/Jun/2017 07:07:39] code 400, message Bad request syntax ('\x16\x03\x01\x00\xe1\x01\x00\x00\xdd\x03\x03Y6T\xba\x01\xd7\x8b$\x0f{\xdb\xf5')
+[06/Jun/2017 07:07:39] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[06/Jun/2017 07:07:40] code 400, message Bad request syntax ('\x16\x03\x01\x00\xc1\x01\x00\x00\xbd\x03\x01Y6T\xba\x1c\xec\x176\xd1\xf0\x9d\xb6\xbb\xea')
+[06/Jun/2017 07:07:40] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[06/Jun/2017 07:07:40] code 400, message Bad request syntax ('\x16\x03\x01\x00\xc1\x01\x00\x00\xbd\x03\x01Y6T\xbb\xc2!w\x80\xcb\xd38\x8fU\x95=\xac\xe1\xdf\xbb\x1f\x90\x9c\xe4u(\x12\xdc\x80\x80\x05\x18/\x00\x00"\x00\xffV\x00\xc0$\xc0#\xc0')
+[06/Jun/2017 07:07:40] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[06/Jun/2017 07:07:53] "GET / HTTP/1.1" 200 5532
+[06/Jun/2017 07:07:53] "GET /static/sticky-footer.css HTTP/1.1" 200 275
+Not Found: /favicon.ico
+[06/Jun/2017 07:07:54] "GET /favicon.ico HTTP/1.1" 404 5202
+[06/Jun/2017 07:34:08] "GET / HTTP/1.1" 200 5532
+[06/Jun/2017 07:34:08] "GET /static/sticky-footer.css HTTP/1.1" 304 0
+[06/Jun/2017 07:34:19] "GET /register/ HTTP/1.1" 200 5575
+[06/Jun/2017 07:34:21] "GET /login/ HTTP/1.1" 200 3871
+[06/Jun/2017 07:36:54] "GET /login/facebook/ HTTP/1.1" 302 0
+Internal Server Error: /complete/facebook/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 42, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/decorators/cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/social_django/utils.py", line 50, in wrapper
+    return func(request, backend, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/social_django/views.py", line 32, in complete
+    redirect_name=REDIRECT_FIELD_NAME, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/social_core/actions.py", line 41, in do_complete
+    user = backend.complete(user=user, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/social_core/backends/base.py", line 39, in complete
+    return self.auth_complete(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/social_core/utils.py", line 252, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/social_core/backends/facebook.py", line 91, in auth_complete
+    self.process_error(self.data)
+  File "/usr/local/lib/python2.7/dist-packages/social_core/backends/facebook.py", line 83, in process_error
+    super(FacebookOAuth2, self).process_error(data)
+  File "/usr/local/lib/python2.7/dist-packages/social_core/backends/oauth.py", line 377, in process_error
+    raise AuthCanceled(self, data.get('error_description', ''))
+AuthCanceled: Authentication process canceled: Permissions error
+[06/Jun/2017 07:38:05] "GET /complete/facebook/?redirect_state=NbWd2u8yEILUFNGGQGSGgWFt55hBaaT2&error=access_denied&error_code=200&error_description=Permissions+error&error_reason=user_denied&state=NbWd2u8yEILUFNGGQGSGgWFt55hBaaT2 HTTP/1.1" 500 107047
+[06/Jun/2017 07:38:41] "GET / HTTP/1.1" 200 5532
+[06/Jun/2017 07:38:42] "GET /static/sticky-footer.css HTTP/1.1" 200 275
+Not Found: /favicon.ico
+[06/Jun/2017 07:38:42] "GET /favicon.ico HTTP/1.1" 404 5202
+[06/Jun/2017 07:38:45] "GET /login/ HTTP/1.1" 200 3871
+[06/Jun/2017 07:38:47] "GET /login/facebook/ HTTP/1.1" 302 0
+[06/Jun/2017 07:38:48] "GET /complete/facebook/?redirect_state=Tn52au4JanEbFg2y796qnynucg9RjrJb&granted_scopes=email%2Cpublic_profile&denied_scopes&code=AQCwjVozEr42jibWpajbuymrqp0lBFNLEyB8SBJsDOdk8vWgptfUcYRkvPl0O71tlFkNTzaGQmolzSJvQ6z6AMNUIoNf4phfZ6yMwbgU9s4DK0zgZliwFotHs84sKoytmZiA6r9FLlMCW_y6VvfvXTUNclmM9vXXcVTLh0vG1TbwwLc2VFtj01zKwyzHpevBPRU3A0MTZ7EgTDhQFYYtVYsU29Nn_ABu3zz69_fgIPnJsR5ht7aEzG9fVA9cgwVgwlUhxxnvewrkkNhsAHulDQueoEsquChpLxM6mTlbTlOoJBQ9C6xqAK3f5mbYPg9tRIkENwbsROSm1-S4rO1HOpl2&state=Tn52au4JanEbFg2y796qnynucg9RjrJb HTTP/1.1" 302 0
+[06/Jun/2017 07:38:48] "GET / HTTP/1.1" 200 3232
+[06/Jun/2017 07:38:54] "GET /login/ HTTP/1.1" 200 3871
+[06/Jun/2017 07:38:56] "GET /login/facebook/ HTTP/1.1" 302 0
+[06/Jun/2017 07:38:57] "GET /complete/facebook/?redirect_state=JiCohGKz4s8oTfdgtICCvOw6djmjfqeg&granted_scopes=email%2Cpublic_profile&denied_scopes&code=AQBhv9CUcSWlEbkHGRKTWW7PXeV4iwcbgS16DG5vEKQSlvHtvZCeNPzLKVcjUS8bxBSIN1d1lkpszGuiPI20kHno_F323G4uzhVCmQ0ynFqxJSXinTdn-maPjakfNBc-GW2Jqf6cvSkTY1WLNQ0U44CNSZLF6Ep0kQJNvF1EOn1AAyxbsS8hs6HwSP38t2xHG_ZsgHFIdwATWQiAFwjPs9AiINDd56IHFTClbrQcduHaAwzsJN6t3SdxsHgHhC5Cw-eamZQH8OIU4esg8T2RTK6CIR0ATlqZkbligPrFHvWVGY2KPaD4vByAT8uFp5kybk3HcHGaf4EfjdZQQnH2SYtr&state=JiCohGKz4s8oTfdgtICCvOw6djmjfqeg HTTP/1.1" 302 0
+[06/Jun/2017 07:38:57] "GET / HTTP/1.1" 200 3232
+[06/Jun/2017 07:39:11] "GET / HTTP/1.1" 200 5532
+[06/Jun/2017 07:39:11] "GET / HTTP/1.1" 200 5532
+[06/Jun/2017 07:39:11] "GET /static/sticky-footer.css HTTP/1.1" 200 275
+[06/Jun/2017 07:39:13] "GET /login/ HTTP/1.1" 200 3871
+[06/Jun/2017 07:39:15] "GET /login/facebook/ HTTP/1.1" 302 0
+[06/Jun/2017 07:39:23] "GET /complete/facebook/?redirect_state=krd6EQHCSC0Gtb7vhduryM6TLSSwgVOZ&granted_scopes=email%2Cpublic_profile&denied_scopes&code=AQAkH6JJ17LkGl1oDEUtzoLp16K2_08iSWb5Ic1lQEODjAysC0OjpyzJ79G8aYeXVvpZClw0ETIbeHoZsBFsZxDLdiuWDB3uRBI8ZI5nhhLSUgT29E1eLzdVSmW7-mqpIKeSncyVusq7JsgyybAEHjY3SbasAJHUhyPdSN28q7dLI7kkGe2kWrZFEO8YsEeUAfYkwpb4mH4IlGneJkeFuLmb1y63S48mKAghJJiJtIX9Bc2odOplflYrwuelEHPdHcTruD01SCKQ7mQzbNcSNEMyI-nXVShBNYLU5L0ELBW6t9G454rB29G8d9hajOWF9Buf4y4lRI2vziSuc7x4yU0z&state=krd6EQHCSC0Gtb7vhduryM6TLSSwgVOZ HTTP/1.1" 302 0
+[06/Jun/2017 07:39:23] "GET / HTTP/1.1" 200 3232
+[06/Jun/2017 07:41:00] "GET /admin HTTP/1.1" 301 0
+[06/Jun/2017 07:41:00] "GET /admin/ HTTP/1.1" 302 0
+[06/Jun/2017 07:41:01] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1653
+[06/Jun/2017 07:41:01] "GET /static/admin/css/base.css HTTP/1.1" 200 15937
+[06/Jun/2017 07:41:01] "GET /static/admin/css/login.css HTTP/1.1" 200 1203
+[06/Jun/2017 07:41:01] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[06/Jun/2017 07:41:02] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+[06/Jun/2017 07:41:02] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+[06/Jun/2017 07:41:05] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[06/Jun/2017 07:41:05] "GET /admin/ HTTP/1.1" 200 9209
+[06/Jun/2017 07:41:06] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 434
+[06/Jun/2017 07:41:06] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[06/Jun/2017 07:41:06] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[06/Jun/2017 07:41:06] "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+[06/Jun/2017 07:41:06] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 82564
+[06/Jun/2017 07:41:11] "GET /admin/auth/user/ HTTP/1.1" 200 9404
+[06/Jun/2017 07:41:11] "GET /static/admin/css/changelists.css HTTP/1.1" 200 6117
+[06/Jun/2017 07:41:11] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 363
+[06/Jun/2017 07:41:11] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 6577
+[06/Jun/2017 07:41:11] "GET /static/admin/js/core.js HTTP/1.1" 200 7976
+[06/Jun/2017 07:41:11] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+[06/Jun/2017 07:41:11] "GET /static/admin/js/actions.js HTTP/1.1" 200 6501
+[06/Jun/2017 07:41:11] "GET /static/admin/js/urlify.js HTTP/1.1" 200 8186
+[06/Jun/2017 07:41:11] "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1538
+[06/Jun/2017 07:41:12] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 258648
+[06/Jun/2017 07:41:12] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 128820
+[06/Jun/2017 07:41:12] "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+[06/Jun/2017 07:41:12] "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+[06/Jun/2017 07:41:12] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+[06/Jun/2017 07:41:12] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+[06/Jun/2017 07:41:12] "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+[06/Jun/2017 07:41:21] "POST /admin/auth/user/ HTTP/1.1" 200 3841
+[06/Jun/2017 07:41:21] "GET /static/admin/js/cancel.js HTTP/1.1" 200 204
+[06/Jun/2017 07:41:24] "POST /admin/auth/user/ HTTP/1.1" 302 0
+[06/Jun/2017 07:41:24] "GET /admin/auth/user/ HTTP/1.1" 200 9091
+[06/Jun/2017 07:41:24] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+[06/Jun/2017 07:41:35] "GET / HTTP/1.1" 200 5532
+[06/Jun/2017 07:41:36] "GET /login/ HTTP/1.1" 200 3871
+[06/Jun/2017 07:41:37] "GET /login/facebook/ HTTP/1.1" 302 0
+[06/Jun/2017 07:41:38] "GET /complete/facebook/?redirect_state=shcwMMoyPtjOGmCixgg0Q5KM31CrKx69&granted_scopes=email%2Cpublic_profile&denied_scopes&code=AQDak0gMQJ1NZcToqM4ULaNG3A_vOWSNFnNDPgEOxL_rPDvhTmQf7wyBLlJILgO1YTMp8AtyEijP8Zq7odlAyKLnxMUqtL_KN7VhAghFgK7BjQdC1e_fsxjt5qMgWmActk-9BQbD18Z0DIdDJplwgyfV50Zo2Gm5Fy-KW8P8m8Y57QF2bf5juk6KwosuU3wt1DHd70elqioyuOpB4SX1lclcqyD_ZBhRGEVfweNLTtEyAdchW8Gtl5-xNkCAF_0J8PaE961gErQHTDJzC3Ng7JBYYNweuQh70WfJ_r0ent9WhzynSBOhQCHX4JSdtahR9gN_mOMMZCUHsr3qXlGNRFzK&state=shcwMMoyPtjOGmCixgg0Q5KM31CrKx69 HTTP/1.1" 302 0
+[06/Jun/2017 07:41:38] "GET / HTTP/1.1" 200 5551
+[06/Jun/2017 07:41:53] "GET /logout/ HTTP/1.1" 200 3217
+[06/Jun/2017 07:41:56] "GET /login/ HTTP/1.1" 200 3871
+[06/Jun/2017 07:41:57] "GET /login/facebook/ HTTP/1.1" 302 0
+[06/Jun/2017 07:41:58] "GET /complete/facebook/?redirect_state=tBo5QfLVbhgxribRG026So1NBCAORR2E&granted_scopes=email%2Cpublic_profile&denied_scopes&code=AQB_PQoFiy-Tj9tbnMdDGZKH0zkXQvMng4E2RrFPpJbH2RdVCokVHDxcMyX2S_rfK3x9WkU83q0aDR0UZ4sy8aLYdI6nf-h5UDKrwFBpT6Wq6enLcZiawIU-fqW6qja3Vt60HzVpuF0awmJfHOSSNAtk9YZ5jMtJX8MulsZvR53iOy29hmexItfYewfzRK20dJISQaqSc_VuWZdpylwkOeEQO1d7ANPDuG2cQgJqbC--rLfbjTWmFQXvyiGuHsgVDz47zZkESQFEDpc93q3UiNrjzoxChd357QiUh0l5cHmIjtQ2-lKYngaaAYFXFGfRsDmcmYwiMhxpkEydk94Vzj_0&state=tBo5QfLVbhgxribRG026So1NBCAORR2E HTTP/1.1" 302 0
+[06/Jun/2017 07:41:59] "GET / HTTP/1.1" 200 5551
+[06/Jun/2017 07:42:20] "GET / HTTP/1.1" 200 5547
+[06/Jun/2017 07:42:21] "GET / HTTP/1.1" 200 5547
+[06/Jun/2017 07:42:23] "GET /logout/ HTTP/1.1" 200 3217
+[06/Jun/2017 07:42:24] "GET /login/ HTTP/1.1" 200 3871
+[06/Jun/2017 07:42:26] "GET /login/facebook/ HTTP/1.1" 302 0
+[06/Jun/2017 07:42:26] "GET /complete/facebook/?redirect_state=SbRRfevVUI4Vz76HfuxUHmh7iRvMz4bC&granted_scopes=email%2Cpublic_profile&denied_scopes&code=AQCAOaWx564PDrNbZevzWszk53QeiY7meLSfYr432h_IOL4GklnMM0uXkiudduTulcs7_bDzCcLigIYmR3Vai76KaBIF6NBLtUGAnOk-nBJ4p_iDk_VVed3NN4NN1nifpHqdQy8-xGGEBm6gt0yiwdeteeG-ktOQAHD9KBlgq7YQlWm_5een-aEkksVI3foKTKJb1DK98K5dD0oP5J7ixWDkWVoD4ZLsW824eidtY5ihoFPtSOYSMXf1KwGv2Y8_ehg5NScvUbeuTqJUCN-wKv3LLS-7Vha3wlzaWNywSbLJFiHq5305wA9uLy64C00ZsyyzBnKWYrGd19uqIrcpA_XK&state=SbRRfevVUI4Vz76HfuxUHmh7iRvMz4bC HTTP/1.1" 302 0
+[06/Jun/2017 07:42:27] "GET / HTTP/1.1" 200 5551
+[06/Jun/2017 07:42:53] "GET / HTTP/1.1" 200 5532
+[06/Jun/2017 07:42:53] "GET / HTTP/1.1" 200 5532
+[06/Jun/2017 07:42:53] "GET /static/sticky-footer.css HTTP/1.1" 200 275
+[06/Jun/2017 07:42:58] "GET /login/ HTTP/1.1" 200 3871
+[06/Jun/2017 07:43:00] "GET /login/facebook/ HTTP/1.1" 302 0
+[06/Jun/2017 07:43:07] "GET /login/ HTTP/1.1" 200 3871
+[06/Jun/2017 07:43:09] "GET /login/ HTTP/1.1" 200 3871
+[06/Jun/2017 07:43:13] "GET /login/facebook/ HTTP/1.1" 302 0
+[06/Jun/2017 07:43:16] "GET /login/ HTTP/1.1" 200 3871
+[06/Jun/2017 07:43:17] "GET /login/facebook/ HTTP/1.1" 302 0
+[06/Jun/2017 07:43:22] "GET /complete/facebook/?redirect_state=jMeD9HQ013e32xQfISMryvp3K6lNfwIk&granted_scopes=email%2Cpublic_profile&denied_scopes&code=AQBujDDjIpSJvW-XNnSocqtDM_jjX9gLuTbKJWzCkJAOpFdf4JPwVVfGNV3Xu1Z5yfrMarFEUyXeTOKQLVT_lmy-e2RwM7I0UQiZ5H4P2cL6f0-g1ccBuIxT0HUIThoO6_9O9SY6kmffjpKf7aUOxYIqJ5OO5IvlBLaBALsUKfWrq99JTrnh-11Q6LuHaLtplipXKBW0GQzSpniCxi0G2hFds3muXzLQP7wHyLHjo9enT84fASEHxYfAh6ds05Kbg3P0AJiCV_GaZ77UB-Ve8d1wsQnrFgbGm-hVVE8ZMoGNvpVr-iHKTIVamls_2fxYubI&state=jMeD9HQ013e32xQfISMryvp3K6lNfwIk HTTP/1.1" 302 0
+[06/Jun/2017 07:43:22] "GET / HTTP/1.1" 200 5551
+[06/Jun/2017 08:16:59] "GET / HTTP/1.1" 200 5532
+[06/Jun/2017 08:16:59] "GET /static/sticky-footer.css HTTP/1.1" 200 275
+Not Found: /favicon.ico
+[06/Jun/2017 08:17:00] "GET /favicon.ico HTTP/1.1" 404 5202
+[06/Jun/2017 08:17:02] "GET /login/ HTTP/1.1" 200 3871
+[06/Jun/2017 08:17:05] "POST /login/ HTTP/1.1" 302 0
+[06/Jun/2017 08:17:05] "GET / HTTP/1.1" 200 3232
+[06/Jun/2017 08:17:08] "GET /login/ HTTP/1.1" 200 3871
+[06/Jun/2017 08:17:17] "POST /login/ HTTP/1.1" 200 4040
+[06/Jun/2017 08:17:20] "GET /register/ HTTP/1.1" 200 5575
+Internal Server Error: /register/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 42, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/vigi2/vigi2/views.py", line 189, in register
+    user = User.objects.create_user(username, email, password)
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/auth/models.py", line 157, in create_user
+    return self._create_user(username, email, password, **extra_fields)
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/auth/models.py", line 151, in _create_user
+    user.save(using=self._db)
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/auth/base_user.py", line 80, in save
+    super(AbstractBaseUser, self).save(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/base.py", line 796, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/base.py", line 824, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/base.py", line 908, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/base.py", line 947, in _do_insert
+    using=using, raw=raw)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 1045, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/compiler.py", line 1054, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/utils.py", line 79, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/sqlite3/base.py", line 337, in execute
+    return Database.Cursor.execute(self, query, params)
+IntegrityError: UNIQUE constraint failed: auth_user.username
+[06/Jun/2017 08:17:34] "POST /register/ HTTP/1.1" 500 143108
+Internal Server Error: /register/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 42, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/vigi2/vigi2/views.py", line 189, in register
+    user = User.objects.create_user(username, email, password)
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/auth/models.py", line 157, in create_user
+    return self._create_user(username, email, password, **extra_fields)
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/auth/models.py", line 151, in _create_user
+    user.save(using=self._db)
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/auth/base_user.py", line 80, in save
+    super(AbstractBaseUser, self).save(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/base.py", line 796, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/base.py", line 824, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/base.py", line 908, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/base.py", line 947, in _do_insert
+    using=using, raw=raw)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 1045, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/compiler.py", line 1054, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/utils.py", line 79, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/sqlite3/base.py", line 337, in execute
+    return Database.Cursor.execute(self, query, params)
+IntegrityError: UNIQUE constraint failed: auth_user.username
+[06/Jun/2017 08:17:52] "POST /register/ HTTP/1.1" 500 143108
+[06/Jun/2017 08:18:09] "GET /login/ HTTP/1.1" 200 3871
+[06/Jun/2017 08:18:13] "POST /login/ HTTP/1.1" 302 0
+[06/Jun/2017 08:18:14] "GET / HTTP/1.1" 200 3232
+[06/Jun/2017 08:18:39] "GET /admin HTTP/1.1" 301 0
+[06/Jun/2017 08:18:39] "GET /admin/ HTTP/1.1" 302 0
+[06/Jun/2017 08:18:39] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1653
+[06/Jun/2017 08:18:39] "GET /static/admin/css/login.css HTTP/1.1" 200 1203
+[06/Jun/2017 08:18:39] "GET /static/admin/css/base.css HTTP/1.1" 200 15937
+[06/Jun/2017 08:18:40] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[06/Jun/2017 08:18:40] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+[06/Jun/2017 08:18:40] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+Not Found: /favicon.ico
+[06/Jun/2017 08:18:41] "GET /favicon.ico HTTP/1.1" 404 5202
+[06/Jun/2017 08:18:48] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[06/Jun/2017 08:18:48] "GET /admin/ HTTP/1.1" 200 9214
+[06/Jun/2017 08:18:48] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 434
+[06/Jun/2017 08:18:48] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[06/Jun/2017 08:18:48] "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+[06/Jun/2017 08:18:48] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[06/Jun/2017 08:18:49] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 82564
+[06/Jun/2017 08:18:50] "GET /admin/auth/user/ HTTP/1.1" 200 9404
+[06/Jun/2017 08:18:50] "GET /static/admin/css/changelists.css HTTP/1.1" 200 6117
+[06/Jun/2017 08:18:50] "GET /static/admin/js/core.js HTTP/1.1" 200 7976
+[06/Jun/2017 08:18:50] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 363
+[06/Jun/2017 08:18:50] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+[06/Jun/2017 08:18:50] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 6577
+[06/Jun/2017 08:18:51] "GET /static/admin/js/actions.js HTTP/1.1" 200 6501
+[06/Jun/2017 08:18:51] "GET /static/admin/js/urlify.js HTTP/1.1" 200 8186
+[06/Jun/2017 08:18:51] "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1538
+[06/Jun/2017 08:18:51] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 128820
+[06/Jun/2017 08:18:51] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 258648
+[06/Jun/2017 08:18:51] "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+[06/Jun/2017 08:18:51] "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+[06/Jun/2017 08:18:51] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+[06/Jun/2017 08:18:51] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+[06/Jun/2017 08:18:51] "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+[06/Jun/2017 08:18:57] "GET /admin/auth/user/14/change/ HTTP/1.1" 200 15493
+[06/Jun/2017 08:18:57] "GET /static/admin/css/forms.css HTTP/1.1" 200 7750
+[06/Jun/2017 08:18:57] "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 12389
+[06/Jun/2017 08:18:57] "GET /static/admin/js/SelectBox.js HTTP/1.1" 200 5755
+[06/Jun/2017 08:18:57] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+[06/Jun/2017 08:18:57] "GET /static/admin/js/calendar.js HTTP/1.1" 200 7790
+[06/Jun/2017 08:18:57] "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 20529
+[06/Jun/2017 08:18:57] "GET /static/admin/css/widgets.css HTTP/1.1" 200 10340
+[06/Jun/2017 08:18:57] "GET /static/admin/js/change_form.js HTTP/1.1" 200 698
+[06/Jun/2017 08:18:57] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 495
+[06/Jun/2017 08:18:57] "GET /static/admin/img/icon-unknown.svg HTTP/1.1" 200 655
+[06/Jun/2017 08:18:57] "GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+[06/Jun/2017 08:18:57] "GET /static/admin/img/icon-unknown-alt.svg HTTP/1.1" 200 655
+[06/Jun/2017 08:18:57] "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+[06/Jun/2017 08:18:57] "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+[06/Jun/2017 08:19:00] "GET /admin/auth/user/ HTTP/1.1" 200 9404
+[06/Jun/2017 08:19:03] "GET /admin/auth/user/10/change/ HTTP/1.1" 200 15532
+[06/Jun/2017 08:19:04] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+[06/Jun/2017 08:19:07] "GET /admin/auth/user/10/delete/ HTTP/1.1" 200 3449
+[06/Jun/2017 08:19:07] "GET /static/admin/js/cancel.js HTTP/1.1" 200 204
+[06/Jun/2017 08:19:10] "POST /admin/auth/user/10/delete/ HTTP/1.1" 302 0
+[06/Jun/2017 08:19:10] "GET /admin/auth/user/ HTTP/1.1" 200 9110
+[06/Jun/2017 08:19:10] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+[06/Jun/2017 08:19:13] "GET /login/ HTTP/1.1" 200 3871
+[06/Jun/2017 08:19:16] "GET /register/ HTTP/1.1" 200 5575
+[06/Jun/2017 08:19:29] "POST /register/ HTTP/1.1" 200 3221
+[06/Jun/2017 08:19:32] "GET /login/ HTTP/1.1" 200 3871
+[06/Jun/2017 08:20:19] "GET /confirm/imhdxlifix HTTP/1.1" 200 3223
+[06/Jun/2017 08:20:20] "GET /static/sticky-footer.css HTTP/1.1" 200 275
+Not Found: /favicon.ico
+[06/Jun/2017 08:20:20] "GET /favicon.ico HTTP/1.1" 404 5202
+[06/Jun/2017 08:20:24] "GET /login/ HTTP/1.1" 200 3871
+[06/Jun/2017 08:20:30] "POST /login/ HTTP/1.1" 302 0
+[06/Jun/2017 08:20:31] "GET / HTTP/1.1" 200 5557
+[06/Jun/2017 08:22:43] "POST / HTTP/1.1" 200 6838
+[06/Jun/2017 08:22:47] "POST / HTTP/1.1" 200 6838
+[06/Jun/2017 08:22:51] "POST / HTTP/1.1" 200 6838
+[06/Jun/2017 08:22:52] "GET /reserve/1/checkin/2017-06-06/checkout/2017-06-06/number/6/ HTTP/1.1" 200 6623
+[06/Jun/2017 08:23:55] "GET /reserve/1/checkin/2017-06-06/checkout/2017-06-06/number/6/ HTTP/1.1" 200 6623
+[06/Jun/2017 08:48:34] "GET /applycoupon/57/coupon/79 HTTP/1.1" 200 6259
+[06/Jun/2017 09:05:11] "GET / HTTP/1.1" 200 5532
+[06/Jun/2017 09:05:12] "GET /static/sticky-footer.css HTTP/1.1" 304 0
+[06/Jun/2017 09:06:48] "POST /pay/57/ HTTP/1.1" 200 4584
+[06/Jun/2017 09:06:48] "GET /static/sticky-footer.css HTTP/1.1" 304 0
+[06/Jun/2017 09:06:50] "GET /edit_reservation/57/ HTTP/1.1" 200 5440
+[06/Jun/2017 09:06:51] "GET /register/ HTTP/1.1" 200 5575
+[06/Jun/2017 09:07:40] "GET /register/ HTTP/1.1" 200 5575
+[06/Jun/2017 09:08:45] "POST /register/ HTTP/1.1" 200 3221
+[06/Jun/2017 09:08:48] "GET /login/ HTTP/1.1" 200 3871
+[06/Jun/2017 09:09:26] "POST /login/ HTTP/1.1" 302 0
+[06/Jun/2017 09:09:26] "GET / HTTP/1.1" 200 3232
+[06/Jun/2017 09:09:29] "GET /login/ HTTP/1.1" 200 3871
+[06/Jun/2017 09:09:38] "GET /confirm/pymbbnvqui HTTP/1.1" 200 3223
+[06/Jun/2017 09:09:40] "GET /login/ HTTP/1.1" 200 3871
+[06/Jun/2017 09:09:50] "POST /login/ HTTP/1.1" 302 0
+[06/Jun/2017 09:09:50] "GET / HTTP/1.1" 200 5554
+[06/Jun/2017 09:10:32] "GET /admin/auth/user/ HTTP/1.1" 200 9847
+[06/Jun/2017 09:10:32] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+[06/Jun/2017 09:10:42] "GET /admin/auth/user/33/change/ HTTP/1.1" 200 15525
+[06/Jun/2017 09:10:42] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+[06/Jun/2017 09:10:46] "GET /admin/auth/user/33/delete/ HTTP/1.1" 200 3441
+[06/Jun/2017 09:10:48] "POST /admin/auth/user/33/delete/ HTTP/1.1" 302 0
+[06/Jun/2017 09:10:48] "GET /admin/auth/user/ HTTP/1.1" 200 9554
+[06/Jun/2017 09:10:48] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+[06/Jun/2017 09:10:57] "GET / HTTP/1.1" 200 5532
+[06/Jun/2017 09:11:05] "GET /login/ HTTP/1.1" 200 3871
+[06/Jun/2017 09:11:09] "GET /register/ HTTP/1.1" 200 5575
+[06/Jun/2017 09:11:23] "POST /register/ HTTP/1.1" 200 3221
+[06/Jun/2017 09:11:25] "GET /login/ HTTP/1.1" 200 3871
+[06/Jun/2017 09:11:31] "POST /login/ HTTP/1.1" 302 0
+[06/Jun/2017 09:11:31] "GET / HTTP/1.1" 200 3232
+[06/Jun/2017 09:11:33] "GET /login/ HTTP/1.1" 200 3871
+[06/Jun/2017 09:11:40] "GET /confirm/aipidrhpxe HTTP/1.1" 200 3223
+[06/Jun/2017 09:11:42] "GET /login/ HTTP/1.1" 200 3871
+[06/Jun/2017 09:11:48] "POST /login/ HTTP/1.1" 302 0
+[06/Jun/2017 09:11:49] "GET / HTTP/1.1" 200 5554
+[06/Jun/2017 09:12:02] "POST / HTTP/1.1" 200 6840
+[06/Jun/2017 09:12:05] "GET /reserve/3/checkin/2017-06-06/checkout/2017-06-09/number/1/ HTTP/1.1" 200 6623
+[06/Jun/2017 09:12:16] "POST /pay/58/ HTTP/1.1" 200 4577
+[06/Jun/2017 09:12:21] "GET / HTTP/1.1" 200 5554
+[06/Jun/2017 09:12:27] "POST / HTTP/1.1" 200 6835
+[06/Jun/2017 09:12:30] "GET /reserve/4/checkin/2017-06-06/checkout/2017-06-16/number/1/ HTTP/1.1" 200 6618
+[06/Jun/2017 09:12:37] "POST /pay/59/ HTTP/1.1" 200 5094
+[06/Jun/2017 09:12:40] "GET /edit_reservation/58/ HTTP/1.1" 200 5437
+[06/Jun/2017 09:12:46] "POST /edit_reservation/58/ HTTP/1.1" 200 5094
+[06/Jun/2017 09:12:49] "GET /delete/59/ HTTP/1.1" 200 4577
+[06/Jun/2017 09:12:52] "GET /mypage/ HTTP/1.1" 200 4577
+[06/Jun/2017 09:12:55] "GET / HTTP/1.1" 200 5554
+[06/Jun/2017 09:12:58] "GET /logout/ HTTP/1.1" 200 3217
+[06/Jun/2017 09:13:00] "GET /login/ HTTP/1.1" 200 3871
+[06/Jun/2017 09:13:01] "GET /login/facebook/ HTTP/1.1" 302 0
+[06/Jun/2017 09:13:06] "GET /complete/facebook/?redirect_state=CSThFXaAX0mrtlwBUovB90lYZof9E7Tv&granted_scopes=email%2Cpublic_profile&denied_scopes&code=AQD7gT3ARiD1Iuve-9H_xrQf92s3qbhQvWLwF9n0DhTvu_PmGdBEvEbg2B7mybROjdAZJWE-yToLIRZgem0xEVYtTNkigtX2crKrh9-HMDPcHuddiPq8wFuLyEE3VYLFX0BiCVPrU5yHiZ7OhIVbVdTOCI2vuiegK_It5E2idl3lmKdSQF_jKhAoj7_uOi8KAzBNrpAm8ArFrb9eidiEjgLonABWAmG3ZvIwlXZW6nsgLzXk9I2MHuhDVrb10t2Ql0-wErayuuKRwr-liR9Js4ke0pzhhTq4YemqRwyuq9TlCuf3tkfpQEq1-j2X6MBxDy8&state=CSThFXaAX0mrtlwBUovB90lYZof9E7Tv HTTP/1.1" 302 0
+[06/Jun/2017 09:13:06] "GET / HTTP/1.1" 200 5553
+[06/Jun/2017 09:13:09] "POST / HTTP/1.1" 200 6834
+[06/Jun/2017 09:13:10] "GET /reserve/1/checkin/2017-06-06/checkout/2017-06-06/number/1/ HTTP/1.1" 200 6618
+[06/Jun/2017 09:13:17] "POST /pay/60/ HTTP/1.1" 200 4562
+[06/Jun/2017 09:13:21] "GET /logout/ HTTP/1.1" 200 3217
+[06/Jun/2017 09:13:23] "GET /register/ HTTP/1.1" 200 5575
+[06/Jun/2017 09:13:43] "POST /register/ HTTP/1.1" 200 3251
+[06/Jun/2017 09:17:01] "GET /logout/ HTTP/1.1" 200 3217
+[06/Jun/2017 09:17:03] "GET /login/ HTTP/1.1" 200 3871
+[06/Jun/2017 09:17:10] "POST /login/ HTTP/1.1" 302 0
+[06/Jun/2017 09:17:10] "GET / HTTP/1.1" 200 5628
+[06/Jun/2017 09:17:14] "GET /approve/ HTTP/1.1" 200 3799
+[06/Jun/2017 09:17:21] "GET /logout/ HTTP/1.1" 200 3217
+[06/Jun/2017 09:17:31] "GET /login/ HTTP/1.1" 200 3871
+[06/Jun/2017 09:17:37] "POST /login/ HTTP/1.1" 302 0
+[06/Jun/2017 09:17:37] "GET / HTTP/1.1" 200 5628
+[06/Jun/2017 09:17:38] "GET /approve/ HTTP/1.1" 200 3799
+[06/Jun/2017 09:17:39] "GET /approve_user/32 HTTP/1.1" 200 3519
+[06/Jun/2017 09:17:40] "GET /logout/ HTTP/1.1" 200 3217
+[06/Jun/2017 09:17:42] "GET /login/ HTTP/1.1" 200 3871
+[06/Jun/2017 09:17:47] "POST /login/ HTTP/1.1" 302 0
+[06/Jun/2017 09:17:47] "GET / HTTP/1.1" 200 5629
+[06/Jun/2017 09:17:50] "GET /logout/ HTTP/1.1" 200 3217
+[06/Jun/2017 09:18:32] "GET /login/ HTTP/1.1" 200 3871
+[06/Jun/2017 09:18:39] "POST /login/ HTTP/1.1" 302 0
+[06/Jun/2017 09:18:40] "GET / HTTP/1.1" 200 5554
+[06/Jun/2017 09:18:44] "POST / HTTP/1.1" 200 6835
+[06/Jun/2017 09:18:45] "GET /reserve/1/checkin/2017-06-06/checkout/2017-06-06/number/1/ HTTP/1.1" 200 6619
+[06/Jun/2017 09:19:01] "POST /pay/61/ HTTP/1.1" 200 5093
+[06/Jun/2017 09:19:11] "GET / HTTP/1.1" 200 5554
+[06/Jun/2017 09:19:21] "POST / HTTP/1.1" 200 6835
+[06/Jun/2017 09:19:22] "GET /reserve/4/checkin/2017-06-06/checkout/2017-06-06/number/1/ HTTP/1.1" 200 6617
+[06/Jun/2017 09:19:25] "GET /applycoupon/62/coupon/85 HTTP/1.1" 200 6251
+[06/Jun/2017 09:19:33] "POST /pay/62/ HTTP/1.1" 200 5609
+Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add u'www.baidu.com' to ALLOWED_HOSTS.
+[06/Jun/2017 10:09:06] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 400 61331
+[06/Jun/2017 11:52:10] "GET /pay/62/ HTTP/1.1" 200 5609
+[06/Jun/2017 11:52:10] "GET /static/sticky-footer.css HTTP/1.1" 304 0
+[06/Jun/2017 11:52:11] "GET /logout/ HTTP/1.1" 200 3217
+[06/Jun/2017 11:52:12] "GET /register/ HTTP/1.1" 200 5575
+[06/Jun/2017 11:52:15] "GET / HTTP/1.1" 200 5532
+Invalid HTTP_HOST header: u'ubuntu-512mb-sgp1-01:8000'. You may need to add u'ubuntu-512mb-sgp1-01' to ALLOWED_HOSTS.
+[06/Jun/2017 15:12:00] "GET / HTTP/1.0" 400 60726
+[2017-06-06 15:12:00,323] - Broken pipe from ('78.225.224.60', 52207)
+
+[06/Jun/2017 16:52:37] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[06/Jun/2017 16:52:37] "    c                           " 400 -
+[06/Jun/2017 16:56:34] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[06/Jun/2017 16:56:34] "    c                           " 400 -
+[06/Jun/2017 17:03:50] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[06/Jun/2017 17:03:50] "    c                           " 400 -
+[06/Jun/2017 17:04:53] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[06/Jun/2017 17:04:53] "    c                           " 400 -
+[06/Jun/2017 17:08:07] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[06/Jun/2017 17:08:07] "    c                           " 400 -
+[06/Jun/2017 17:37:54] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[06/Jun/2017 17:37:54] "    c                           " 400 -
+Invalid HTTP_HOST header: '188.166.255.239:8000'. You may need to add u'188.166.255.239' to ALLOWED_HOSTS.
+[07/Jun/2017 01:54:10] "GET / HTTP/1.1" 400 61042
+[2017-06-07 01:54:10,853] - Broken pipe from ('139.162.79.87', 41728)
+
+[07/Jun/2017 10:06:47] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[07/Jun/2017 10:06:47] "    c                           " 400 -
+[07/Jun/2017 10:36:42] "GET / HTTP/1.1" 200 5547
+[07/Jun/2017 10:36:42] "GET /static/sticky-footer.css HTTP/1.1" 200 275
+Not Found: /favicon.ico
+[07/Jun/2017 10:36:43] "GET /favicon.ico HTTP/1.1" 404 5202
+[07/Jun/2017 10:37:05] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00\xdb\x01\x00\x00\xd7\x03\x03Y7\xd7PE\xc7')
+[07/Jun/2017 10:37:05] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Jun/2017 10:37:05] code 400, message Bad request syntax ('\x16\x03\x01\x00\xe1\x01\x00\x00\xdd\x03\x03Y7\xd7P\x90\x1d\x9aQ\x933\xae\xe3\xea\xac\x00\xda\xc9*g\xac\xf7\xdc\xab6\x8c\x98\xed6h\xab\x8a*\x00\x00,\x00\xff\xc0,\xc0+\xc0$\xc0#\xc0')
+[07/Jun/2017 10:37:05] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Jun/2017 10:37:06] code 400, message Bad request syntax ('\x16\x03\x01\x00\xc1\x01\x00\x00\xbd\x03\x01Y7\xd7Q\xfbA\x89$\\\x04/f\x8a\xe0f\x02\xec(\x9d\x8e\xe6\'U\xa5:\xbd\xab\x1d\xf9\xceZY\x00\x00"\x00\xffV\x00\xc0$\xc0#\xc0')
+[07/Jun/2017 10:37:06] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Jun/2017 10:37:06] code 400, message Bad request syntax ('\x16\x03\x01\x00\xc1\x01\x00\x00\xbd\x03\x01Y7\xd7Qt\xf3k\xfb\xd2\x89\xe6\xa8"8\x1a\xaa\xaf\xca\x9d\xe6\xcfu5\xc7\xb93\xc5y\xdf\xa5\xbe<\x00\x00"\x00\xffV\x00\xc0$\xc0#\xc0')
+[07/Jun/2017 10:37:06] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Jun/2017 10:37:08] code 400, message Bad request version ('\xcaS\xd3\xc5\x00\x00&\x00\xff\xc0,\xc0+\xc0$\xc0#\xc0')
+[07/Jun/2017 10:37:08] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Jun/2017 10:37:09] code 400, message Bad request syntax ('\x16\x03\x01\x00\xe1\x01\x00\x00\xdd\x03\x03Y7\xd7T\xb8\x81\xba\xfeB\x97\xf4b\xde\xac\xdc\x8cL\xeaw\xb7\xac\xf8\xc8\x02T\x9c\xd9l\x84S\xbd\xa9\x00\x00,\x00\xff\xc0,\xc0+\xc0$\xc0#\xc0')
+[07/Jun/2017 10:37:09] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Jun/2017 10:37:09] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00\xc1\x01\x00\x00\xbd\x03\x01Y7\xd7T\\\xc7\xd0\x8a\x1ev\xe7N\x90\xa5!\xef\xadT\x19\xe7')
+[07/Jun/2017 10:37:09] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Jun/2017 10:37:09] code 400, message Bad request version ('\x04\xa3`I\xb3h\x83\xa9\x1c\xf3\xb7\xed\x8f>\x00\x00"\x00\xffV\x00\xc0$\xc0#\xc0')
+[07/Jun/2017 10:37:09] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Jun/2017 10:37:17] code 400, message Bad request syntax ('\x16\x03\x01\x00\xdb\x01\x00\x00\xd7\x03\x03Y7\xd7\\\xa1\x85\xc87t\xfa')
+[07/Jun/2017 10:37:17] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Jun/2017 10:37:17] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00\xe1\x01\x00\x00\xdd\x03\x03Y7\xd7\\\xc3\xce\x9e+\xcd@3\x7fU\xda\xc7\x0fE\xb3ht\xa1m`w\xd3\x9c\xe00\x01\x84B')
+[07/Jun/2017 10:37:17] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Jun/2017 10:37:18] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00\xc1\x01\x00\x00\xbd\x03\x01Y7\xd7]\xd1\xc9V\x85b\xc2\xe7\xb6\x01\xa2\x03a\xba~N\xc5')
+[07/Jun/2017 10:37:18] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Jun/2017 10:37:18] code 400, message Bad request syntax ('\x16\x03\x01\x00\xc1\x01\x00\x00\xbd\x03\x01Y7\xd7]\xfe\xa15\xa4\x03?S%l\x0e\x0e\xd3U\xad0\x90E\x84\xd2p\xa4H\x897\xe4!\xf1\xc5\x00\x00"\x00\xffV\x00\xc0$\xc0#\xc0')
+[07/Jun/2017 10:37:18] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Jun/2017 10:37:31] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00\xdb\x01\x00\x00\xd7\x03\x03Y7\xd7iJz\xb3Z\xe5')
+[07/Jun/2017 10:37:31] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Jun/2017 10:37:31] code 400, message Bad request syntax ("\x16\x03\x01\x00\xe1\x01\x00\x00\xdd\x03\x03Y7\xd7j\x99^\xa8\x0f>\x11\x10\xa1^9N\xf5\xa2\xebvl\x1b\xd4\xf9\xa9\xaf}\xe4\xaczk'\x99\x00\x00,\x00\xff\xc0,\xc0+\xc0$\xc0#\xc0")
+[07/Jun/2017 10:37:31] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Jun/2017 10:37:31] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00\xc1\x01\x00\x00\xbd\x03\x01Y7\xd7j6\xc6\xac\xd7\xac\x19\xf0\x83\x9e\xbc\xdb\x05~\x05\xda\xcbS\x8e\xec$#`')
+[07/Jun/2017 10:37:31] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Jun/2017 10:37:32] code 400, message Bad request syntax ('\x16\x03\x01\x00\xc1\x01\x00\x00\xbd\x03\x01Y7\xd7jb\xb2\x96b\x03#\x1a\x90\xdf\xb1\x1dm\xd8\':\x8f\x04\x92\x7f\xa5\xb7\x11\xf4\x95\x1a\xd7\x16\xe0\x00\x00"\x00\xffV\x00\xc0$\xc0#\xc0')
+[07/Jun/2017 10:37:32] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Jun/2017 10:37:33] code 400, message Bad request syntax ('\x16\x03\x01\x00\xdb\x01\x00\x00\xd7\x03\x03Y7\xd7ldu5\xd2v6e^{!\xea\xc4\x7f6\xe3n\xd9\x92OR\xc5\xea\x03\xaf\xd4\xf0oc\x00\x00&\x00\xff\xc0,\xc0+\xc0$\xc0#\xc0')
+[07/Jun/2017 10:37:33] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Jun/2017 10:37:33] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00\xe1\x01\x00\x00\xdd\x03\x03Y7\xd7ljupLtf\xe4\xa6\x94')
+[07/Jun/2017 10:37:33] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Jun/2017 10:37:34] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00\xc1\x01\x00\x00\xbd\x03\x01Y7\xd7m5\xed\x80\xc6\xa3Mh\xff\x90\x89DK\xcb')
+[07/Jun/2017 10:37:34] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Jun/2017 10:37:34] code 400, message Bad request version ('\xa8T\xcf\xe8\x9f\xba\xd9q\xae_\xf23\xbb\x00\x00"\x00\xffV\x00\xc0$\xc0#\xc0')
+[07/Jun/2017 10:37:34] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Jun/2017 10:37:57] "GET / HTTP/1.1" 200 5532
+[07/Jun/2017 10:37:58] "GET /static/sticky-footer.css HTTP/1.1" 200 275
+[07/Jun/2017 11:10:56] "GET / HTTP/1.1" 200 5547
+[07/Jun/2017 11:11:05] "GET / HTTP/1.1" 200 5547
+Invalid HTTP_HOST header: '188.166.255.239:8000'. You may need to add u'188.166.255.239' to ALLOWED_HOSTS.
+[07/Jun/2017 12:11:25] "GET / HTTP/1.1" 400 61188
+[07/Jun/2017 13:27:09] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[07/Jun/2017 13:27:09] "    c                           " 400 -
+Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add u'www.baidu.com' to ALLOWED_HOSTS.
+[07/Jun/2017 14:28:50] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 400 61331
+[07/Jun/2017 14:34:06] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[07/Jun/2017 14:34:06] "    c                           " 400 -
+[07/Jun/2017 14:46:01] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[07/Jun/2017 14:46:01] "    c                           " 400 -
+[07/Jun/2017 15:03:07] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[07/Jun/2017 15:03:07] "    c                           " 400 -
+[07/Jun/2017 15:31:59] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[07/Jun/2017 15:31:59] "    c                           " 400 -
+[07/Jun/2017 16:28:59] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[07/Jun/2017 16:28:59] "    c                           " 400 -
+[07/Jun/2017 17:17:52] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[07/Jun/2017 17:17:52] "    c                           " 400 -
+[07/Jun/2017 17:35:49] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[07/Jun/2017 17:35:49] "    c                           " 400 -
+[07/Jun/2017 17:45:16] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[07/Jun/2017 17:45:16] "    c                           " 400 -
+[07/Jun/2017 20:16:33] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[07/Jun/2017 20:16:33] "    c                           " 400 -
+[08/Jun/2017 03:13:24] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[08/Jun/2017 03:13:24] "    c                           " 400 -
+[08/Jun/2017 03:51:38] code 400, message Bad request syntax ('\x00\x00\x00TZ\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x04\x00(\xc1\x00\x00\x00\x00\x0f\x01\xa8\xc0\x00"_\x1d\xa8\x9f\x00\x00tsXrcsXYs9\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00bbXcsXctst\x00\x00\x00\x00\x00\x00')
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/logging/__init__.py", line 851, in emit
+    msg = self.format(record)
+  File "/usr/lib/python2.7/logging/__init__.py", line 724, in format
+    return fmt.format(record)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/log.py", line 192, in format
+    return super(ServerFormatter, self).format(record)
+  File "/usr/lib/python2.7/logging/__init__.py", line 467, in format
+    s = self._fmt % record.__dict__
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xc1 in position 20: ordinal not in range(128)
+Logged from file basehttp.py, line 131
+[08/Jun/2017 05:15:53] code 400, message Bad request syntax ('\x16\x03\x01\x00\xdb\x01\x00\x00\xd7\x03\x03Y8\xdd\x88\xbd\xd0q%\xae\xf7\xa9\xc3C\x8a\xd0\xcf\xb7\xbf\x85\xe4P>\xac\xd5\xae$\x18\x12\x82\xd2dw\x00\x00&\x00\xff\xc0,\xc0+\xc0$\xc0#\xc0')
+[08/Jun/2017 05:15:53] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[08/Jun/2017 05:15:53] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00\xe1\x01\x00\x00\xdd\x03\x03Y8\xdd\x88E2\xf6z\xe6\xf3\x81\xb74~\xfbU0"\xc5mM\x7f')
+[08/Jun/2017 05:15:53] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[08/Jun/2017 05:15:53] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00\xc1\x01\x00\x00\xbd\x03\x01Y8\xdd\x880\x92x\xc2\xa8U?\xd5\xa5\xcd\xb60')
+[08/Jun/2017 05:15:53] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[08/Jun/2017 05:15:53] code 400, message Bad request syntax ('\x16\x03\x01\x00\xc1\x01\x00\x00\xbd\x03\x01Y8\xdd\x88a\xff\x10\xde\xd32tBrDA\xa4\xc6\xcc\xdb\xdc\x99o\x08\xf9\xd5L\xe5\xb7-\x11e\x7f\x00\x00"\x00\xffV\x00\xc0$\xc0#\xc0')
+[08/Jun/2017 05:15:53] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Invalid HTTP_HOST header: '188.166.255.239:8000'. You may need to add u'188.166.255.239' to ALLOWED_HOSTS.
+[08/Jun/2017 07:14:49] "GET / HTTP/1.1" 400 61188
+[08/Jun/2017 07:43:33] "GET / HTTP/1.1" 200 5532
+[08/Jun/2017 07:43:34] "GET /static/sticky-footer.css HTTP/1.1" 304 0
+[08/Jun/2017 07:46:55] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[08/Jun/2017 07:46:55] "    c                           " 400 -
+[08/Jun/2017 08:11:11] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[08/Jun/2017 08:11:11] "    c                           " 400 -
+[08/Jun/2017 09:25:12] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[08/Jun/2017 09:25:12] "    c                           " 400 -
+[08/Jun/2017 09:59:15] "GET / HTTP/1.1" 200 5557
+[08/Jun/2017 09:59:15] "GET /static/sticky-footer.css HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[08/Jun/2017 09:59:16] "GET /favicon.ico HTTP/1.1" 404 5202
+[08/Jun/2017 09:59:19] "GET /logout/ HTTP/1.1" 200 3217
+[08/Jun/2017 09:59:20] "GET /login/ HTTP/1.1" 200 3871
+[08/Jun/2017 09:59:23] "POST /login/ HTTP/1.1" 200 4024
+[08/Jun/2017 09:59:28] "POST /login/ HTTP/1.1" 200 4024
+[08/Jun/2017 10:09:41] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[08/Jun/2017 10:09:41] "    c                           " 400 -
+[08/Jun/2017 10:34:11] "GET / HTTP/1.1" 200 5532
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 42, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/vigi2/vigi2/views.py", line 76, in searchRoom
+    'number': number,
+  File "/usr/local/lib/python2.7/dist-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/backends/django.py", line 66, in render
+    return self.template.render(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 208, in render
+    return self._render(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader_tags.py", line 174, in render
+    return compiled_parent._render(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader_tags.py", line 70, in render
+    result = block.nodelist.render(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/defaulttags.py", line 209, in render
+    nodelist.append(node.render_annotated(context))
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/defaulttags.py", line 439, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/base.py", line 91, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 392, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns)
+NoReverseMatch: Reverse for 'reserve' with arguments '(1, u'', u'', u'1')' and keyword arguments '{}' not found. 1 pattern(s) tried: ['reserve/(?P<roomid>[0-9]+)/checkin/(?P<checkin>[0-9|-]+)/checkout/(?P<checkout>[0-9|-]+)/number/(?P<number>[0-9]+)/$']
+[08/Jun/2017 10:34:14] "POST / HTTP/1.1" 500 180174
+[08/Jun/2017 10:34:22] "GET / HTTP/1.1" 200 5532
+[08/Jun/2017 10:34:31] "POST / HTTP/1.1" 200 6813
+[08/Jun/2017 10:34:35] "GET /login/ HTTP/1.1" 200 3871
+[08/Jun/2017 10:34:41] "POST /login/ HTTP/1.1" 302 0
+[08/Jun/2017 10:34:41] "GET / HTTP/1.1" 200 5557
+[08/Jun/2017 10:34:44] "POST / HTTP/1.1" 200 6838
+[08/Jun/2017 10:34:45] "GET /reserve/1/checkin/2017-06-08/checkout/2017-06-08/number/1/ HTTP/1.1" 200 6482
+[08/Jun/2017 10:34:50] "POST /pay/63/ HTTP/1.1" 200 5100
+[08/Jun/2017 10:50:59] "GET /logout/ HTTP/1.1" 200 3217
+[08/Jun/2017 10:51:01] "GET /login/ HTTP/1.1" 200 3871
+[08/Jun/2017 10:51:08] "POST /login/ HTTP/1.1" 302 0
+[08/Jun/2017 10:51:08] "GET / HTTP/1.1" 200 5557
+[08/Jun/2017 10:51:09] "POST / HTTP/1.1" 200 6838
+[08/Jun/2017 10:51:10] "GET /reserve/1/checkin/2017-06-08/checkout/2017-06-08/number/1/ HTTP/1.1" 200 6482
+Internal Server Error: /pay/64/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 42, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/vigi2/vigi2/views.py", line 273, in pay
+    card = int(request.POST.get("card", 0))
+ValueError: invalid literal for int() with base 10: ''
+[08/Jun/2017 10:51:12] "POST /pay/64/ HTTP/1.1" 500 66321
+[08/Jun/2017 10:51:17] "POST /pay/64/ HTTP/1.1" 200 5616
